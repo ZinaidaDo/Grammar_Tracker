@@ -1,0 +1,13 @@
+{
+  "name": "grammar-habit-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local grammar study tracker with spaced repetition",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  },
+  "devDependencies": {
+    "@opencode/cli": "^2.3.2"
+  }
+}
